@@ -6,7 +6,7 @@ class Cricketer{
      String nationality= "Indian";  
 
      void cricketerDetails(){
-         System.out.println(name);
+         System.out.println(name + " " + age);
          System.out.println(age);
          System.out.println(color);
          System.out.println(role);
