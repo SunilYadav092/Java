@@ -9,7 +9,7 @@ class Scanner_Demo{
         String name = sc.nextLine(); 
 
         System.out.print("Enter your Course: ");
-        String Course = sc.nextLine()
+        String Course = sc.nextLine();
 
         System.out.println("Your name is: " + name);
         System.out.println("Your Learning : " + Course);
