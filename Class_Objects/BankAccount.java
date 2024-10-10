@@ -11,8 +11,9 @@ class BankAccount {
     }
 
     void displayBalance() {
+     //   System.out.println(accountNumber);
         System.out.println("Account Number: " + accountNumber);
-        System.out.println("Current Balance: $" + balance);
+     System.out.println("Current Balance: $" + balance);
     }
 
     public static void main(String[] args) {
