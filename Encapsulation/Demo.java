@@ -1,6 +1,6 @@
 class Student {
-  private int age;
-  private String name;
+   int age;
+   String name;
 }
 
 public class Demo {
