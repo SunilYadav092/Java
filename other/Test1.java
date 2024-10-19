@@ -6,7 +6,7 @@ class Test3{
     }
 }
 public class Test1 {
-   // public int value = 10;
-    protected int value = 20;
+    public int value = 10;
+   // protected int value = 20;
 }
  
