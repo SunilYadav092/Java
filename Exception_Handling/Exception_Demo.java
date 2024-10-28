@@ -8,6 +8,8 @@ public class Exception_Demo {
          
             System.out.println("Error: Index out of bounds!");
         }
+        finally{
         System.out.println("Program continues...");
+        }
     }
 }
