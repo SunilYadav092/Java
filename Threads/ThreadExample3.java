@@ -14,6 +14,7 @@ public class ThreadExample3 {
             for(int i=1;i<=10000;i++)
     		{
     			c.increment();
+				System.out.println("Hi");
     		}
             }
     	};	
@@ -22,6 +23,7 @@ public class ThreadExample3 {
             for(int i=1;i<=10000;i++)
     		{
     			c.increment();
+				System.out.println("Hello");
     		}
             }
     	};

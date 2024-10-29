@@ -1,5 +1,5 @@
 class A implements Runnable {
-    public void run() {
+    public synchronized  void run() {
             for (int i = 1; i <= 100; i++) {
                 System.out.println("Hi Everyone");
                // Thread.sleep(10);
@@ -7,7 +7,7 @@ class A implements Runnable {
     }
 }
 class B implements  Runnable {
-    public void run() {
+    public synchronized  void run() {
             for (int i = 1; i <= 100; i++) {
                 System.out.println("Good Morning!!");
                 
