@@ -9,7 +9,6 @@ class Child extends Parent {
         System.out.println("Message from Child class");
     }
 }
-
 public class SimpleOverrideExample {
     public static void main(String[] args) {
         Parent p = new Parent();

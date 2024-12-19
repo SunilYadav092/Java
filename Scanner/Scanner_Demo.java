@@ -7,7 +7,7 @@ class Scanner_Demo{
 
         System.out.print("Enter your name: ");
         String name = sc.nextLine(); 
-
+        
         System.out.print("Enter your Course: ");
         String Course = sc.nextLine();
 

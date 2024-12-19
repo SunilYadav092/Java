@@ -6,7 +6,6 @@ public class JaggedArrayExample {
             {6, 7, 8, 9},
             {10}
         };
-
         for (int i = 0; i < jaggedArray.length; i++) {
             System.out.print("Row " + i + ": ");
             for (int j = 0; j < jaggedArray[i].length; j++) {

@@ -1,5 +1,4 @@
 class OverloadWithReturnType {
-
     int calculate(int a) {
         return a * a;
     }
@@ -13,9 +12,7 @@ class OverloadWithReturnType {
         return a + b;
     }
     public static void main(String[] args) {
-        
         OverloadWithReturnType obj = new OverloadWithReturnType();
-
         System.out.println("Square of integer 5: " + obj.calculate(5));          // Returns an int
         System.out.println("Square of double 5.5: " + obj.calculate(5.5));       // Returns a double
         System.out.println("Sum of integers 3 and 7: " + obj.calculate(3, 7));   // Returns an int

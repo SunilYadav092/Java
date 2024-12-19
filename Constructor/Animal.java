@@ -5,6 +5,6 @@ class Animal {
     }
 
     public static void main(String[] args) {
-        Animal animal1 = new Animal("Lion");
+        Animal a1 = new Animal("Lion");
     }
 }

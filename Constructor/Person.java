@@ -30,7 +30,6 @@ class Person {
         age = a;
         gender = g;
     }
-
     // Method to display person information
     public void displayInfo() {
         System.out.println("Name: " + name + ", Age: " + age + ", Gender: " + gender);
