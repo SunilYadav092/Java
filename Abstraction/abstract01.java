@@ -1,11 +1,9 @@
 abstract class Animal {
-    //int age=30;
     abstract void sound();
     void sleep() {
         System.out.println("This animal is sleeping");
     } }
 class Dog extends Animal {
-   // abstract void run();
     void sound() {
         System.out.println("Dog barks");
     } }
@@ -22,6 +20,5 @@ public class abstract01 {
         dog.sleep();  
         cat.sound();  
         cat.sleep();  
-    //System.out.println(cat.age);
     }
 }
