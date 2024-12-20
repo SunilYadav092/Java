@@ -13,14 +13,11 @@ class Car extends Vehicle {
 }
 public class Upcasting_and_Downcasting {
     public static void main(String[] args) {
-
         Vehicle vehicle = new Car();  
         vehicle.start();  
-
-       // Car car = vehicle; 
         Car car = (Car) vehicle;
         car.start();  
         car.drive();  
-        
+    
     }
 }
