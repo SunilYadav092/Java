@@ -19,23 +19,20 @@ class B extends Thread {
             }
     } } 
 public class ThreadExample1 {
-    public static void main(String[] args) throws InterruptedException { 
+    public static void main(String[] args) { 
         A Obj1 = new A();
-
+        
         System.out.println(Obj1.getPriority());
-        
         Obj1.setPriority(Thread.MAX_PRIORITY);
-        
-        B Obj2 = new B();
 
+        B Obj2 = new B();
+        
         Obj1.start();
         try {
                     Thread.sleep(50);
                 } catch (InterruptedException ex) {
                 }
-        Obj2.start();
-
-        
+        Obj2.start();     
     }
 }
 

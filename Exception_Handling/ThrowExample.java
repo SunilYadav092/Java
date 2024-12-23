@@ -1,5 +1,4 @@
 public class ThrowExample {
-
     static void checkEligibility(int age) {
         if (age < 18) {
             throw new ArithmeticException("Person is not eligible to vote");

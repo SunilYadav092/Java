@@ -6,10 +6,8 @@ public class Division_by_Zero {
             int result = a / b; 
             System.out.println("Result: " + result);
         } catch (ArithmeticException e) {
-            
             System.out.println("Error: Division by zero is not allowed!");
         }
-
         System.out.println("Program continues...");
     }
 }
